@@ -1,0 +1,20 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "devDependencies": {
+    "angular": "1.4.8",
+    "angular-mocks": "1.4.8",
+    "angular-resource": "1.4.8",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.2"
+  }
+}
