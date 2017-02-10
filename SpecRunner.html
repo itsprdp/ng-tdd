@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>Jasmine Spec Runner v2.5.2</title>
 
-  <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.5.2/jasmine_favicon.png">
-  <link rel="stylesheet" href="lib/jasmine-2.5.2/jasmine.css">
+  <link rel="shortcut icon" type="image/png" href="node_modules/jasmine-core/images/jasmine_favicon.png">
+  <link rel="stylesheet" href="node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
 
   <script src="node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
   <script src="node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
@@ -13,15 +13,22 @@
 
   <script src="node_modules/angular/angular.js"></script>
   <script src="node_modules/angular-resource/angular-resource.js"></script>
+  <script src="node_modules/angular-route/angular-route.js"></script>
   <script src="node_modules/angular-mocks/angular-mocks.js"></script>
 
+  <script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
   <!-- include source files here... -->
   <script src="src/omdb/service.js"></script>
   <script src="src/movie-core/service.js"></script>
+  <script src="src/movie-app/app.js"></script>
+  <script src="src/movie-app/results.controller.js"></script>
+  <script src="src/movie-app/search.controller.js"></script>
 
   <!-- include spec files here... -->
   <script src="spec/omdb/service.spec.js"></script>
   <script src="spec/movie-core/service.spec.js"></script>
+  <script src="spec/movie-app/search.controller.spec.js"></script>
+  <script src="spec/movie-app/result.controller.spec.js"></script>
 </head>
 <body>
 </body>
